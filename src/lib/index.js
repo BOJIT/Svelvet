@@ -16,24 +16,25 @@ import Resizer from './components/Resizer/Resizer.svelte';
 import { generateInput, generateOutput } from './utils/creators';
 import { getViewportCenter } from './utils/getters/getViewportCenter';
 export {
-	Svelvet,
-	Controls,
-	Minimap,
-	Node,
-	Anchor,
-	Edge,
-	Background,
-	Group,
-	Resizer,
-	Slider,
-	Knob,
-	RadioGroup,
-	ThemeToggle,
-	ColorPicker,
-	Drawer,
-	generateInput,
-	generateOutput,
-	getViewportCenter
+    Svelvet,
+    Controls,
+    Minimap,
+    Node,
+    Anchor,
+    Edge,
+    Background,
+    Group,
+    Resizer,
+    Slider,
+    Knob,
+    RadioGroup,
+    ThemeToggle,
+    ColorPicker,
+    Drawer,
+    generateInput,
+    generateOutput,
+    getViewportCenter
 };
 
 export * from './types';
+export * from './utils';
